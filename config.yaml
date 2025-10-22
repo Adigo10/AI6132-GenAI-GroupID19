@@ -1,0 +1,23 @@
+# Default configuration for panoramic video generation
+
+video:
+  fps: 30
+  num_frames: 120
+  output_size: [1920, 1080]
+  codec: mp4v
+
+camera:
+  radius: 5.0
+  height: 10.0
+  start_angle: 0.0
+  trajectory_type: circular  # 'circular' or 'top_view'
+
+character:
+  scale: 1.0
+  target_size: null  # Auto-scale if null
+
+environment:
+  type: gradient  # 'image', 'color', or 'gradient'
+  color: [135, 206, 235]  # Sky blue (used if type is 'color')
+  gradient_top: [135, 206, 235]  # Sky blue
+  gradient_bottom: [34, 139, 34]  # Forest green

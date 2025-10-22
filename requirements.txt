@@ -1,0 +1,21 @@
+# Core dependencies for 360-degree panoramic video generation
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+scipy>=1.11.0
+tqdm>=4.66.0
+
+# 3D rendering and scene composition
+trimesh>=4.0.0
+pyrender>=0.1.45
+matplotlib>=3.7.0
+
+# Video processing
+moviepy>=1.0.3
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# Configuration and utilities
+pyyaml>=6.0
